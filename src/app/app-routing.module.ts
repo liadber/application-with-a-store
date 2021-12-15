@@ -1,4 +1,4 @@
-// (Optional - Lazy Loading)
+// (Optional - Modules && Lazy Loading)
 
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 import {AppComponent} from './app.component';

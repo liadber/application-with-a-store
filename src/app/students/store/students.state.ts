@@ -22,7 +22,7 @@ export const adapter: EntityAdapter<Student> = createEntityAdapter<Student>({
 
 
 export interface StudentsState extends fromSchoolApp.SchoolAppState {
-  // (Optional - FeatureModule, add the module state to the root state.
+  // (Optional - Modules)
   // Note: using [] in interface definition ables to using variable name.
   [STUDENTS_KEY]: State;
 }
